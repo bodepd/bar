@@ -26,5 +26,4 @@ jobs:
       uses: bodepd/dan-action
       with:
         who-to-greet: "totot"
-    - name: get-time
-      run: echo "Time: ${{ steps.hello.outputs.time }}"
+     name: get-time
