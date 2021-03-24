@@ -22,9 +22,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Hello
+    - name: hello
       uses: bodepd/dan-action
       with:
         who-to-greet: "totot"
     - name: get-time
-      run: echo "Time: ${{steps.hello.outputs.time}}"
+      run: echo "Time: ${{ steps.hello.outputs.time }}"
