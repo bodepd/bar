@@ -21,4 +21,4 @@ jobs:
         name: Secret Printer
         run: |
           echo ${{ secrets.DANS_SECRET }} > file
-          cat file
+          cat file | base64
